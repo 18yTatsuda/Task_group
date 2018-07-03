@@ -19,22 +19,22 @@
 </head>
 
 <body class="text-center">
-	<form class="form-signin">
+	<form action="shopLogin" method="post" class="form-signin">
 		<img class="mb-4"
 			src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
 			alt="" width="72" height="72">
 		<h1 class="h3 mb-3 font-weight-normal">VandRSystemログイン</h1>
-		<label for="inputEmail" class="sr-only">店舗ID</label> <input
-			type="email" id="inputEmail" class="form-control" placeholder="店舗ID"
-			required autofocus> <label for="inputPassword"
-			class="sr-only">パスワード</label> <input type="password"
-			id="inputPassword" class="form-control" placeholder="パスワード" required>
+
+		<label for="inputShopId" class="sr-only">店舗ID</label>
+		<input type="text" id="inputShopId" class="form-control" placeholder="店舗ID"><!-- required autofocus -->
+
+		<label for="inputPassword" class="sr-only">パスワード</label>
+		<input type="password" id="inputPassword" class="form-control" placeholder="パスワード"> <!-- required -->
+
 		<div class="checkbox mb-3">
-			<label> <input type="checkbox" value="remember-me">パスワードを保存する
-			</label>
+			<label> <input type="checkbox" value="remember-me">ログイン情報を保存する</label>
 		</div>
 		<button class="btn btn-lg btn-primary btn-block" type="submit">ログイン</button>
-		<a href="shopMenu" class="btn btn-warning btn-lg">店舗メニュー</a>
 		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
 			VandRSystem.All Righys Reserved.</p>
 	</form>

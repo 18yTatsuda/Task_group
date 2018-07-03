@@ -17,13 +17,13 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="/css/form-validation.css" rel="stylesheet">
+<link href="/css/signin.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 		<header class="masthead mb-auto">
 			<div class="inner">
-				<h3 class="masthead-brand">店舗名がはいるよ</h3>
+				<h3 class="masthead-brand">店舗名が入ります</h3>
 				<nav class="nav nav-masthead justify-content-center">
 				<a class="nav-link active" href="shopMenu">メニュー</a>
 				<a class="nav-link" href="shopReservationCheck">予約管理</a>
@@ -86,7 +86,7 @@
 					</div>
 				</div>
 				<a href="shopProfileUpdateInput" class="btn btn-warning btn-block">店舗詳細を変更する</a>
-				<a href="shopMenu" class="btn btn-warning btn-block">店舗メニューへ</a>
+				<a href="shopMenu" class="btn btn-default btn-block">店舗メニューへ</a>
 			</div>
 		</div>
 	</body>

@@ -13,6 +13,11 @@ public class shopController {
     	return "shopIndex";
     }
 
+    @RequestMapping(value = "/shopLogin", method = RequestMethod.POST)
+	public String login(Model model) {
+    	return "shopMenu";
+    }
+
     @RequestMapping(value = "/shopMenu", method = RequestMethod.GET)
     public String menu(Model model) {
     	return "shopMenu";
@@ -39,7 +44,7 @@ public class shopController {
     }
 
     @RequestMapping(value = "/shopProfileUpdate", method = RequestMethod.POST)
-    public String updateResult(Model model) {
+    public String profileUpdateResult(Model model) {
     	return "shopProfileUpdateResult";
     }
 
@@ -48,9 +53,39 @@ public class shopController {
     	return "shopReservationCheck";
     }
 
-    @RequestMapping(value = "/shopAnalysisCheck", method = RequestMethod.GET)
-    public String analysis(Model model) {
-    	return "shopAnalysisCheck";
+    @RequestMapping(value = "/shopReservationInsert", method = RequestMethod.GET)
+    public String reservationInsert(Model model) {
+    	return "shopReservationInsert";
+    }
+
+    @RequestMapping(value = "/shopReservationInsertResult", method = RequestMethod.POST)
+    public String reservationInsertResult(Model model) {
+    	return "shopReservationInsertResult";
+    }
+
+    @RequestMapping(value = "/shopReservationDelete", method = RequestMethod.GET)
+    public String reservationDelete(Model model) {
+    	return "shopReservationDelete";
+    }
+
+    @RequestMapping(value = "/shopReservationDeleteResult", method = RequestMethod.GET)
+    public String reservationDeleteResult(Model model) {
+    	return "shopReservationDeleteResult";
+    }
+
+    @RequestMapping(value = "/shopAnalysisCheckMonth", method = RequestMethod.GET)
+    public String analysisMonth(Model model) {
+    	return "shopAnalysisCheckMonth";
+    }
+
+    @RequestMapping(value = "/shopAnalysisCheckDate", method = RequestMethod.GET)
+    public String analysisDate(Model model) {
+    	return "shopAnalysisCheckDate";
+    }
+
+    @RequestMapping(value = "/shopAnalysisCheckTime", method = RequestMethod.GET)
+    public String analysisTime(Model model) {
+    	return "shopAnalysisCheckTime";
     }
 
     @RequestMapping(value = "/shopLogout", method = RequestMethod.GET)

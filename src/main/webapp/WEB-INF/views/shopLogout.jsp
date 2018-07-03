@@ -3,13 +3,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
 <meta http-equiv="Refresh" content="3;URL=shopIndex">
 <title>ログアウト</title>
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="/css/signin.css" rel="stylesheet">
 </head>
-<body>
+<body class="text-center">
 <div>
-  <p>ログアウトしました。<br>
+ <p class="mt-5 mb-3 font-weight-normal">ログアウトしました。<br>
   ※３秒後にTOP画面に遷移します。</p>
 </div>
 </body>

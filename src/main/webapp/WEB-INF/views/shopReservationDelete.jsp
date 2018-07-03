@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>予約確認画面</title>
+<title>予約削除画面</title>
 <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,43 +26,14 @@
 				<a class="nav-link" href="shopLogout">ログアウト</a>
 				</nav>
 			</div>
-			</header>
-	<a href="shopReservationInsert" class="btn btn-warning btn-lg">予約追加</a>
-<div class="table-responsive">
-<table class="table table-striped table-sm">
-  <caption>現在の予約状況</caption>
-  <thead>
-    <tr>
-      <th>お客様名</th>
-      <th>人数</th>
-      <th>来店予定時刻</th>
-      <th>希望席種別</th>
-      <th>予約削除</th>
-    </tr>
-  </thead>
-  <tbody>
-   <tr>
-        <td>テスト</td>
-        <td>テスト</td>
-        <td>テスト</td>
-		<td>テスト</td>
-        <td><a class="btn btn-danger" href="shopReservationDelete" role="button">削除する</a></td>
-      </tr>
-    <c:forEach items="${userlist}" var="user">
-      <tr>
-        <td>${fn:escapeXml(user.userName)}</td>
-        <td>${fn:escapeXml(user.userPeoples)}</td>
-        <td>${fn:escapeXml(user.visitTime)}</td>
-        <td>${fn:escapeXml(user.seatType)}</td>
-        <td><a class="btn btn-danger" href="shopReservationDelete" role="button">削除する</a></td>
-      </tr>
-    </c:forEach>
-  </tbody>
-</table>
-</div>
-<div>
-  <a href="shopMenu" class="btn btn-warning btn-block">メニュー</a>
-</div>
-</div>
+		</header>
+<h3>この予約を削除します、よろしいですか？</h3>
+<p>お客様名：${fn:escapeXml(user.userName)}</p>
+<p>人数：${fn:escapeXml(user.userPeoples)}</p>
+<p>来店予定時間：${fn:escapeXml(user.visitTime)}</p>
+<p>希望席種別：${fn:escapeXml(user.seatType)}</p>
+ <a class="btn btn-danger" href="shopReservationDeleteResult" role="button">削除する</a>
+  <a class="btn btn-default" href="shopReservationCheck" role="button">予約確認画面に戻る</a>
+ </div>
 </body>
 </html>

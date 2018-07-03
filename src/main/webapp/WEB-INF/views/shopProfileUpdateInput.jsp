@@ -20,6 +20,16 @@
 <link href="/css/form-validation.css" rel="stylesheet">
 </head>
 <body class="bg-light">
+			<header class="masthead mb-auto">
+				<div class="inner">
+					<h3 class="masthead-brand">店舗名が入ります</h3>
+					<nav class="nav nav-masthead justify-content-center">
+						<a class="nav-link" href="shopMenu">メニュー</a>
+						<a class="nav-link" href="shopReservationCheck">予約管理</a>
+						<a class="nav-link" href="shopLogout">ログアウト</a>
+					</nav>
+				</div>
+			</header>
 	<div class="container">
 		<div class="py-5 text-center">
 			<img class="d-block mx-auto mb-4"
@@ -57,18 +67,14 @@
 						<label class="mr-sm-2" for="inlineFormCustomSelect">営業開始時間</label>
 						<select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
 						<option selected>営業開始時間を選んでください</option>
-							<option value="1">14:00～</option>
-							<option value="2">15:00～</option>
-							<option value="3">16:00～</option>
-							<option value="4">17:00～</option>
-							<option value="5">18:00～</option>
-							<option value="6">19:00～</option>
-							<option value="7">20:00～</option>
-							<option value="8">21:00～</option>
+							<option value="1">16:00～</option>
+							<option value="2">17:00～</option>
+							<option value="3">18:00～</option>
+							<option value="4">19:00～</option>
+							<option value="5">20:00～</option>
+							<option value="6">21:00～</option>
 						</select>
 					</div>
-				</div>
-				<div class="row">
 					<div class="col-3">
 						<label class="mr-sm-2" for="inlineFormCustomSelect">営業終了時間</label>
 						<select class="custom-select d-block w-100" id="inlineFormCustomSelect" required>
@@ -119,6 +125,7 @@
 					<label>備考欄</label>
 					<textarea class="form-control" rows="3"></textarea>
 				</div>
+				</div>
 			</fieldset>
 			<div class="row">
 				<div class="col">
@@ -132,7 +139,7 @@
 			</div>
 		</form>
 		<div>
-			<a href="shopMenu" class="btn btn-default btn-block">メニューに戻る</a>
+			<a href="shopMenu" class="btn btn-default btn-block">メニュー</a>
 		</div>
 	</div>
 </body>

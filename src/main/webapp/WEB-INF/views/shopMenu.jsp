@@ -22,7 +22,7 @@
 	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 		<header class="masthead mb-auto">
 		<div class="inner">
-			<h3 class="masthead-brand">店舗名がはいるよ</h3>
+			<h3 class="masthead-brand">店舗名が入ります</h3>
 			<nav class="nav nav-masthead justify-content-center"> <a
 				class="nav-link active" href="shopMenu">メニュー</a> <a class="nav-link"
 				href="shopReservationCheck">予約管理</a> <a class="nav-link"
@@ -31,7 +31,7 @@
 		</header>
 
 		<main role="main" class="inner cover">
-		<h1 class="cover-heading">店舗名がはいるよ</h1>
+		<h1 class="cover-heading">店舗名が入ります</h1>
 		<p class="lead">コメントコメントコメント</p>
 		<p class="lead">
 			<a href="shopProfile" class="btn btn-warning btn-block">店舗詳細管理</a>
@@ -40,7 +40,7 @@
 			<a href="shopReservationCheck" class="btn btn-warning btn-block">予約管理</a>
 		</p>
 		<p class="lead">
-			<a href="shopAnalysisCheck" class="btn btn-warning btn-block">分析データ閲覧</a>
+			<a href="shopAnalysisCheckMonth" class="btn btn-warning btn-block">分析データ閲覧</a>
 		</p>
 
 		</main>
