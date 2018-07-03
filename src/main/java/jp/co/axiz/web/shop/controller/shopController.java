@@ -35,7 +35,7 @@ public class shopController {
 
 	@RequestMapping(value = "/updateInputBack")
 	public String updateInputBack(Model model) {
-		return "updateInput";
+		return "shopProfileUpdateInput";
 	}
 
     @RequestMapping(value = "/shopProfileUpdateConfirm", method = RequestMethod.POST)

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,10 +16,13 @@
 <!-- Custom styles for this template -->
 <link href="/css/signin.css" rel="stylesheet">
 </head>
-<body class="text-center">
-<div>
- <p class="mt-5 mb-3 font-weight-normal">ログアウトしました。<br>
-  ※３秒後にTOP画面に遷移します。</p>
-</div>
+<body>
+	<div class="container">
+		<div class="py-5 text-center">
+			<p class="mt-5 mb-3 font-weight-normal">
+				ログアウトしました。<br> ※３秒後にTOP画面に遷移します。
+			</p>
+		</div>
+	</div>
 </body>
 </html>

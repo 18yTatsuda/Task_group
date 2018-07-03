@@ -17,19 +17,30 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="/css/form-validation.css" rel="stylesheet">
+<link href="/css/carousel.css" rel="stylesheet">
 </head>
-<body class="bg-light">
-			<header class="masthead mb-auto">
-				<div class="inner">
-					<h3 class="masthead-brand">店舗名が入ります</h3>
-					<nav class="nav nav-masthead justify-content-center">
-						<a class="nav-link" href="shopMenu">メニュー</a>
-						<a class="nav-link" href="shopReservationCheck">予約管理</a>
-						<a class="nav-link" href="shopLogout">ログアウト</a>
-					</nav>
-				</div>
-			</header>
+<body>
+<header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">VandRsystem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="shopMenu">メニュー<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopReservationCheck">予約確認</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopLogout">ログアウト</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 	<div class="container">
 		<div class="py-5 text-center">
 			<img class="d-block mx-auto mb-4"
@@ -37,7 +48,7 @@
 				alt="" width="72" height="72">
 			<h1 class="h3 mb-3 font-weight-normal">店舗情報更新</h1>
 			<p>
-				１箇所以上の項目を変更してください<br> ※ID、店舗名は変更できません
+				１箇所以上の項目を変更してください<br> ※ID、店舗名、TELは変更できません。
 			</p>
 
 			<c:if test="${not empty errmsg}">

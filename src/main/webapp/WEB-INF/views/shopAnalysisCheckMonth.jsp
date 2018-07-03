@@ -50,7 +50,7 @@
 		</table>
 	</div>
 	<div>
-		<a href="shopMenu" class="btn btn-default btn-block">メニューに戻る</a>
+		<a href="shopMenu" class="btn btn-default btn-block">メニュー</a>
 	</div>
 		<script>
 		jQuery(function($) {

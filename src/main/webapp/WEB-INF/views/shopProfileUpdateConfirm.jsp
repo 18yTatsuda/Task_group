@@ -17,13 +17,37 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="/css/signin.css" rel="stylesheet">
+<link href="/css/carousel.css" rel="stylesheet">
 </head>
 <body>
-	<p>これでよろしいですか？</p>
-
+<header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">VandRsystem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="shopMenu">メニュー<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopReservationCheck">予約確認</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopLogout">ログアウト</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+   <div class="container">
 	<form action="shopProfileUpdate" method="post">
+	<img class="mb-4"
+			src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
+			alt="" width="72" height="72">
 		<fieldset>
+			<p>これでよろしいですか？</p>
 			<div>
 				<label for="shopId">店舗ID：</label><input type="text" class="form-control" id="shopId" readonly>
 			</div>
@@ -73,7 +97,7 @@
 				<label for="newTel">TEL：</label><input type="text" class="form-control" id="newTel" readonly>
 			</div>
 			<div>
-				<label>PASS(再入力)：</label><input type="password" id="confirmNewPassword">
+				<label for="confirmNewPassword">PASS(再入力)：</label><input type="password" class="form-control" id="confirmNewPassword">
 			</div>
 			<div>
 				<label for="newOpen">営業開始時間：</label><input type="text" class="form-control" id="newOpen" disabled>
@@ -97,11 +121,12 @@
 		</div>
 		<div>
 			<button class="btn btn-lg btn-warning btn-block" type="submit">更新する</button>
-			<input type="submit" name="button" value="戻る" onclick="location.href='updateInputBack'; return false;">
+			<button class="btn btn-default btn-block" type="submit" onclick="location.href='updateInputBack'; return false;">入力画面に戻る</button>
 		</div>
 	</form>
 	<div>
 		<a href="shopProfile" class="btn btn-default btn-block">店舗詳細に戻る</a>
+	</div>
 	</div>
 </body>
 </html>

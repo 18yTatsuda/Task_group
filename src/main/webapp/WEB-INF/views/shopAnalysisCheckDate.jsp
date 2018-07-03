@@ -51,7 +51,7 @@
 	</div>
 	<div>
 		<a href="shopAnalysisCheckMonth" class="btn btn-warning btn-block">月別データに戻る</a>
-		<a href="shopMenu" class="btn btn-default btn-block">メニューに戻る</a>
+		<a href="shopMenu" class="btn btn-default btn-block">メニュー</a>
 	</div>
 
 	<script>

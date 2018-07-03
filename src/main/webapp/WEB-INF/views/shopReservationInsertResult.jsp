@@ -9,29 +9,40 @@
 <title>追加確認画面</title>
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <!-- Custom styles for this template -->
-<link href="/css/form-validation.css" rel="stylesheet">
+<link href="/css/carousel.css" rel="stylesheet">
 </head>
-<body class="text-center">
-	<script src="/js/jquery.slim.min.js"></script>
-	<script src="/js/dist/umd/popper.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-			<header class="masthead mb-auto">
-				<div class="inner">
-					<h3 class="masthead-brand">店舗名が入ります</h3>
-					<nav class="nav nav-masthead justify-content-center">
-						<a class="nav-link" href="shopMenu">メニュー</a>
-						<a class="nav-link" href="shopReservationCheck">予約管理</a>
-						<a class="nav-link" href="shopLogout">ログアウト</a>
-					</nav>
-				</div>
-			</header>
+<body>
+	<header> <nav
+		class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> <a
+		class="navbar-brand" href="#">VandRsystem</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarCollapse" aria-controls="navbarCollapse"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active"><a class="nav-link" href="shopMenu">メニュー<span
+					class="sr-only">(current)</span></a></li>
+			<li class="nav-item"><a class="nav-link"
+				href="shopReservationCheck">予約確認</a></li>
+			<li class="nav-item"><a class="nav-link" href="shopLogout">ログアウト</a>
+			</li>
+		</ul>
+	</div>
+	</nav> </header>
+	<div class="container">
+		<div class="py-5 text-center">
+			<img class="d-block mx-auto mb-4"
+				src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
+				alt="" width="72" height="72">
 			<p>予約の追加が完了しました</p>
 			<div>
-				<a href="shopReservationCheck" class="btn btn-default" role="button">予約管理画面</a>
-				<a href="shopMenu" class="btn btn-default" role="button">メニュー</a>
+				<a href="shopReservationCheck" class="btn btn-default">予約管理画面</a>
+				<a href="shopMenu" class="btn btn-default">メニュー</a>
 			</div>
 		<br>
+		</div>
 		</div>
 	</body>
 </html>

@@ -12,30 +12,40 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="/css/cover.css" rel="stylesheet">
+<link href="/css/carousel.css" rel="stylesheet">
 </head>
-	<body class="text-center">
-		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-			<header class="masthead mb-auto">
-				<div class="inner">
-					<h3 class="masthead-brand">店舗名が入ります</h3>
-					<nav class="nav nav-masthead justify-content-center">
-						<a class="nav-link" href="shopMenu">メニュー</a>
-						<a class="nav-link" href="shopReservationCheck">予約管理</a>
-						<a class="nav-link" href="shopLogout">ログアウト</a>
-					</nav>
-				</div>
-			</header>
-			<div class="container">
-				<div class="py-5 text-center">
-					<p>正常に更新されました。</p>
-				</div>
-			</div>
-			<div class="container">
-				<div class="py-5 text-center">
-					<a href="shopMenu" class="btn btn-warning btn-block">メニュー</a>
-				</div>
-			</div>
+<body>
+	<header> <nav
+		class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> <a
+		class="navbar-brand" href="#">VandRsystem</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarCollapse" aria-controls="navbarCollapse"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active"><a class="nav-link" href="shopMenu">メニュー<span
+					class="sr-only">(current)</span></a></li>
+			<li class="nav-item"><a class="nav-link"
+				href="shopReservationCheck">予約確認</a></li>
+			<li class="nav-item"><a class="nav-link" href="shopLogout">ログアウト</a>
+			</li>
+		</ul>
+	</div>
+	</nav> </header>
+	<div class="container">
+		<div class="py-5 text-center">
+			<img class="d-block mx-auto mb-4"
+				src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
+				alt="" width="72" height="72">
+			<p>正常に更新されました。</p>
 		</div>
-	</body>
+	</div>
+	<div class="container">
+		<div class="py-5 text-center">
+			<a href="shopMenu" class="btn btn-warning btn-block">メニュー</a>
+		</div>
+	</div>
+</body>
 </html>
