@@ -39,13 +39,13 @@
 		<h3>予約を追加します、必要事項を入力してください。</h3>
 			<form action="shopReservationInsertResult" method="post">
 				<div class="row">
-					<div class="col-3">
+					<div class="col">
 						<label class="mr-sm-2" for="inlineFormCustomSelect">お客様名：</label>
-						<input class="form-control" type="text" placeholder="userName" required>
+						<input class="form-control" type="text" placeholder="お客様名" required>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-3">
+					<div class="col">
 						<label class="mr-sm-2" for="inlineFormCustomSelect">人数：</label>
 						<select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
 						<option selected>人数を選んでください</option>
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-3">
+					<div class="col">
 						<label class="mr-sm-2" for="inlineFormCustomSelect">来店予定時刻：</label>
 						<select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
 						<option selected>来店予定時刻を選んでください</option>
@@ -84,7 +84,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-3">
+					<div class="col">
 						<label class="mr-sm-2" for="inlineFormCustomSelect">希望席種別：</label>
 						<select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
 						<option selected>希望席種別を選んでください</option>

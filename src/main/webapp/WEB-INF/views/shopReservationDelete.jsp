@@ -41,10 +41,10 @@
 				src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
 				alt="" width="72" height="72">
 			<h3>この予約を削除します、よろしいですか？</h3>
-			<p>お客様名：${fn:escapeXml(user.userName)}</p>
-			<p>人数：${fn:escapeXml(user.userPeoples)}</p>
-			<p>来店予定時間：${fn:escapeXml(user.visitTime)}</p>
-			<p>希望席種別：${fn:escapeXml(user.seatType)}</p>
+			<p>お客様名：${fn:escapeXml(user.userName)}テスト</p>
+			<p>人数：${fn:escapeXml(user.userPeoples)}テスト</p>
+			<p>来店予定時間：${fn:escapeXml(user.visitTime)}テスト</p>
+			<p>希望席種別：${fn:escapeXml(user.seatType)}テスト</p>
 			<a class="btn btn-danger" href="shopReservationDeleteResult"
 				role="button">削除する</a> <a class="btn btn-default"
 				href="shopReservationCheck" role="button">予約確認画面に戻る</a>

@@ -13,12 +13,38 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="/css/dashboard.css" rel="stylesheet">
+<link href="/css/carousel.css" rel="stylesheet">
 <script src="/js/jquery.min.js"></script>
 </head>
 <body>
-
+<header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">VandRsystem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="shopMenu">メニュー<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopReservationCheck">予約確認</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopLogout">ログアウト</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+		<div class="container">
+			<div class="py-5 text-center">
+				<img class="d-block mx-auto mb-4"
+					src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
+					alt="" width="72" height="72">
 	<h2>分析データ○月度</h2>
+	<p>各日カラムをクリックで時間別ページに移動します</p>
 	<div class="table-responsive">
 		<table class="table table-bordered table-hover table-condensed">
 			<thead>
@@ -53,7 +79,8 @@
 		<a href="shopAnalysisCheckMonth" class="btn btn-warning btn-block">月別データに戻る</a>
 		<a href="shopMenu" class="btn btn-default btn-block">メニュー</a>
 	</div>
-
+	</div>
+	</div>
 	<script>
 		jQuery(function($) {
 			$('tbody tr[data-href]').addClass('clickable').click(function() {
