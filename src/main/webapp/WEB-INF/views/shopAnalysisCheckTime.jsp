@@ -19,7 +19,7 @@
 <body>
 <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">VandRsystem</a>
+        <a class="navbar-brand" href="#">VandR System</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -78,6 +78,9 @@
 	<div>
 		<a href="shopAnalysisCheckDate" class="btn btn-warning btn-block">日別データに戻る</a>
 		<a href="shopMenu" class="btn btn-default btn-block">メニュー</a>
+	</div>
+	<div>
+		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
 	</div>
 </body>
 </html>

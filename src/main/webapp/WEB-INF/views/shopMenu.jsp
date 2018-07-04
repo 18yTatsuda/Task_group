@@ -19,7 +19,7 @@
 <body>
 <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">VandRsystem</a>
+        <a class="navbar-brand" href="#">VandR System</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -61,7 +61,7 @@
 		<footer class="mastfoot mt-auto">
 		<div class="inner">
 			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
-				VandRSystem.All Righys Reserved.</p>
+				VandR System.All Righys Reserved.</p>
 		</div>
 		</footer>
 	</div>

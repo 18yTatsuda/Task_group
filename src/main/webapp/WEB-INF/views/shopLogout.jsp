@@ -24,5 +24,8 @@
 			</p>
 		</div>
 	</div>
+	<div>
+		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
+	</div>
 </body>
 </html>

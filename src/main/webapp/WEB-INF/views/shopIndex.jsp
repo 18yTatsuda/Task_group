@@ -23,7 +23,7 @@
 		<img class="mb-4"
 			src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
 			alt="" width="72" height="72">
-		<h1 class="h3 mb-3 font-weight-normal">VandRSystemログイン</h1>
+		<h1 class="h3 mb-3 font-weight-normal">VandR Systemログイン</h1>
 
 		<label for="inputShopId" class="sr-only">店舗ID</label>
 		<input type="text" id="inputShopId" class="form-control" placeholder="店舗ID"><!-- required autofocus -->
@@ -36,7 +36,7 @@
 		</div>
 		<button class="btn btn-lg btn-primary btn-block" type="submit">ログイン</button>
 		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
-			VandRSystem.All Righys Reserved.</p>
+			VandR System.All Righys Reserved.</p>
 	</form>
 </body>
 </html>

@@ -17,7 +17,7 @@
 <body>
 	<header> <nav
 		class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> <a
-		class="navbar-brand" href="#">VandRsystem</a>
+		class="navbar-brand" href="#">VandR System</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarCollapse" aria-controls="navbarCollapse"
 		aria-expanded="false" aria-label="Toggle navigation">
@@ -46,6 +46,9 @@
 		<div class="py-5 text-center">
 			<a href="shopMenu" class="btn btn-warning btn-block">メニュー</a>
 		</div>
+	</div>
+	<div>
+		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
 	</div>
 </body>
 </html>
