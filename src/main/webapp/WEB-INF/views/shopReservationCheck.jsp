@@ -4,11 +4,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>予約確認画面</title>
+<title>予約確認</title>
 <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -50,7 +50,7 @@
 							<th>人数</th>
 							<th>来店予定時刻</th>
 							<th>希望席種別</th>
-							<th>予約削除</th>
+							<th>キャンセル</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -60,7 +60,7 @@
 							<td>テスト</td>
 							<td>テスト</td>
 							<td><a class="btn btn-danger" href="shopReservationDelete"
-								role="button">削除する</a></td>
+								role="button">キャンセルする</a></td>
 						</tr>
 						<c:forEach items="${userlist}" var="user">
 							<tr>
@@ -69,7 +69,7 @@
 								<td>${fn:escapeXml(user.visitTime)}</td>
 								<td>${fn:escapeXml(user.seatType)}</td>
 								<td><a class="btn btn-danger" href="shopReservationDelete"
-									role="button">削除する</a></td>
+									role="button">キャンセルする</a></td>
 							</tr>
 						</c:forEach>
 					</tbody>
@@ -80,8 +80,11 @@
 			</div>
 		</div>
 	</div>
-	<div>
-		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
-	</div>
+<footer class="mastfoot mt-auto">
+		<div class="inner">
+			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
+				VandR System.All Righys Reserved.</p>
+		</div>
+		</footer>
 </body>
 </html>

@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>店舗ログイン画面</title>
+<title>店舗ログイン</title>
 
 <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -31,9 +31,6 @@
 		<label for="inputPassword" class="sr-only">パスワード</label>
 		<input type="password" id="inputPassword" class="form-control" placeholder="パスワード"> <!-- required -->
 
-		<div class="checkbox mb-3">
-			<label> <input type="checkbox" value="remember-me">ログイン情報を保存する</label>
-		</div>
 		<button class="btn btn-lg btn-primary btn-block" type="submit">ログイン</button>
 		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
 			VandR System.All Righys Reserved.</p>

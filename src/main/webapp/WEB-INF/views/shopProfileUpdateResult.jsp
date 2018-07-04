@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -47,8 +47,11 @@
 			<a href="shopMenu" class="btn btn-warning btn-block">メニュー</a>
 		</div>
 	</div>
-	<div>
-		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
-	</div>
+<footer class="mastfoot mt-auto">
+		<div class="inner">
+			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
+				VandR System.All Righys Reserved.</p>
+		</div>
+		</footer>
 </body>
 </html>

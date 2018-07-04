@@ -4,11 +4,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>予約削除画面</title>
+<title>予約キャンセル</title>
 <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -40,18 +40,21 @@
 			<img class="d-block mx-auto mb-4"
 				src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
 				alt="" width="72" height="72">
-			<h3>この予約を削除します、よろしいですか？</h3>
+			<h3>この予約をキャンセルします、よろしいですか？</h3>
 			<p>お客様名：${fn:escapeXml(user.userName)}テスト</p>
 			<p>人数：${fn:escapeXml(user.userPeoples)}テスト</p>
 			<p>来店予定時間：${fn:escapeXml(user.visitTime)}テスト</p>
 			<p>希望席種別：${fn:escapeXml(user.seatType)}テスト</p>
 			<a class="btn btn-danger" href="shopReservationDeleteResult"
-				role="button">削除する</a> <a class="btn btn-default"
+				role="button">キャンセルする</a> <a class="btn btn-default"
 				href="shopReservationCheck" role="button">予約確認画面に戻る</a>
 		</div>
 	</div>
-	<div>
-		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
-	</div>
+<footer class="mastfoot mt-auto">
+		<div class="inner">
+			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
+				VandR System.All Righys Reserved.</p>
+		</div>
+		</footer>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,8 +11,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
-
-<title>店舗詳細画面</title>
+<title>店舗詳細</title>
 <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -64,12 +63,17 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<label>営業開始時間:</label>${fn:escapeXml(open)}
+						<label>営業開始時間:</label>${fn:escapeXml(shopOpen)}
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<label>営業終了時間:</label>${fn:escapeXml(close)}
+						<label>営業終了時間:</label>${fn:escapeXml(shopClose)}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<label>定休日:</label>${fn:escapeXml(shopHoliday)}
 					</div>
 				</div>
 				<div class="row">
@@ -96,8 +100,11 @@
 				<a href="shopMenu" class="btn btn-default btn-block">店舗メニューへ</a>
 			</div>
 		</div>
-		<div>
-			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
+<footer class="mastfoot mt-auto">
+		<div class="inner">
+			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
+				VandR System.All Righys Reserved.</p>
 		</div>
+		</footer>
 	</body>
 </html>

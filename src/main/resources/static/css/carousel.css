@@ -89,3 +89,16 @@ body {
     margin-top: 7rem;
   }
 }
+
+[role="button"] {
+  cursor: pointer;
+}
+
+tr{
+  cursor: pointer;
+}
+
+tr:hover    {
+color:#dd0000;
+background-color:#ccc;
+}

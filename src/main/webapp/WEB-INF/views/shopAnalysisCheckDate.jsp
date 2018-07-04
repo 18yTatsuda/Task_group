@@ -4,11 +4,15 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>分析データ確認画面（日別）</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>分析データ確認（日別）</title>
 <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,11 +47,11 @@
 				<img class="d-block mx-auto mb-4"
 					src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
 					alt="" width="72" height="72">
-	<h2>分析データ○月度</h2>
+	<h2>日別分析データ○月度</h2>
 	<p>各日カラムをクリックで時間別ページに移動します</p>
 	<div class="table-responsive">
-		<table class="table table-bordered table-hover table-condensed">
-			<thead>
+		<table class="table table-bordered table-condensed">
+			<thead class="thead-dark">
 				<tr>
 					<th>日付</th>
 					<th>空席率</th>
@@ -81,21 +85,24 @@
 	</div>
 	</div>
 	</div>
-	<div>
-<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
-</div>
-	<script>
-		jQuery(function($) {
-			$('tbody tr[data-href]').addClass('clickable').click(function() {
-				window.location = $(this).attr('data-href');
-			}).find('a').hover(function() {
-				$(this).parents('tr').unbind('click');
-			}, function() {
-				$(this).parents('tr').click(function() {
-					window.location = $(this).attr('data-href');
-				});
-			});
-		});
-	</script>
+<footer class="mastfoot mt-auto">
+		<div class="inner">
+			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
+				VandR System.All Righys Reserved.</p>
+		</div>
+		</footer>
+<script>
+jQuery( function($) {
+$('tbody tr[data-href]').addClass('clickable').click( function() {
+window.location = $(this).attr('data-href');
+}).find('a').hover( function() {
+$(this).parents('tr').unbind('click');
+}, function() {
+$(this).parents('tr').click( function() {
+window.location = $(this).attr('data-href');
+});
+});
+});
+</script>
 </body>
 </html>

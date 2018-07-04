@@ -33,15 +33,15 @@ public class shopController {
     	return "shopProfileUpdateInput";
     }
 
-	@RequestMapping(value = "/updateInputBack")
-	public String updateInputBack(Model model) {
-		return "shopProfileUpdateInput";
-	}
+//	@RequestMapping(value = "/updateInputBack")
+//	public String updateInputBack(Model model) {
+//		return "shopProfileUpdateInput";
+//	}
 
-    @RequestMapping(value = "/shopProfileUpdateConfirm", method = RequestMethod.POST)
-    public String profileUpdateConfirm(Model model) {
-    	return "shopProfileUpdateConfirm";
-    }
+//    @RequestMapping(value = "/shopProfileUpdateConfirm", method = RequestMethod.POST)
+//    public String profileUpdateConfirm(Model model) {
+//    	return "shopProfileUpdateConfirm";
+//    }
 
     @RequestMapping(value = "/shopProfileUpdate", method = RequestMethod.POST)
     public String profileUpdateResult(Model model) {

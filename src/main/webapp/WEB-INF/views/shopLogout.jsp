@@ -20,12 +20,14 @@
 	<div class="container">
 		<div class="py-5 text-center">
 			<p class="mt-5 mb-3 font-weight-normal">
-				ログアウトしました。<br> ※３秒後にTOP画面に遷移します。
-			</p>
+				ログアウトしました。<br> ※３秒後にTOP画面に遷移します。</p>
+			</div>
+	</div>
+	<footer class="mastfoot mt-auto">
+		<div class="inner">
+			<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018
+				VandR System.All Righys Reserved.</p>
 		</div>
-	</div>
-	<div>
-		<p class="mt-5 mb-3 text-muted">&copy; Copyright © 2018 VandR System.All Righys Reserved.</p>
-	</div>
+		</footer>
 </body>
 </html>
