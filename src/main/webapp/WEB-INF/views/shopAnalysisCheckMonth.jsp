@@ -18,7 +18,7 @@
 
 <!-- Custom styles for this template -->
 <script src="/js/jquery.min.js"></script>
-<link href="/css/carousel.css" rel="stylesheet">
+<link href="/css/shopCarousel.css" rel="stylesheet">
 </head>
 <body>
 <header>

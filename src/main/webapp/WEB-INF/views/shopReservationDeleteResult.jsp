@@ -8,7 +8,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>予約キャンセル確認</title>
 <link rel="stylesheet" href="/css/bootstrap.min.css">
-<link href="/css/carousel.css" rel="stylesheet">
+<link href="/css/shopCarousel.css" rel="stylesheet">
 </head>
 <body>
 	<header> <nav

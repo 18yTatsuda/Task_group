@@ -9,7 +9,7 @@
 <title>予約追加確認</title>
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <!-- Custom styles for this template -->
-<link href="/css/carousel.css" rel="stylesheet">
+<link href="/css/shopCarousel.css" rel="stylesheet">
 </head>
 <body>
 	<header> <nav
